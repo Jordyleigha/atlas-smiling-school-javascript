@@ -19,6 +19,24 @@
     />
 
     <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -35,12 +53,13 @@
       crossorigin="anonymous"
     ></script>
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <!-- Slick JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
   </head>
   <body class="body">
     <header class="header">
@@ -140,12 +159,13 @@
       </div>
     </header>
     <main class="main">
+      <!--QUOTES-->
       <section class="quotes section d-flex align-items-center">
         <div class="container d-flex justify-content-center align-items-center">
           <div class="loader"></div>
           <div id="quote-carousel" class="carousel slide d-none">
             <div class="carousel-inner"></div>
-          <a
+            <a
               class="carousel-control-prev arrow-left"
               href="#quote-carousel"
               role="button"
@@ -174,6 +194,7 @@
           </div>
         </div>
       </section>
+      <!--POPULAR-->
       <section
         class="carousel-section popular section d-flex align-items-center justify-content-center"
       >
@@ -217,6 +238,7 @@
           </div>
         </div>
       </section>
+      <!--SMILES-->
       <section class="smiles section">
         <div class="container">
           <header class="section-header">
